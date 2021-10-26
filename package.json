@@ -1,0 +1,29 @@
+{
+  "name": "node.js_Practice-room",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlehSolomka/node.js_Practice-room.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlehSolomka/node.js_Practice-room/issues"
+  },
+  "homepage": "https://github.com/OlehSolomka/node.js_Practice-room#readme",
+  "devDependencies": {
+    "cssnano": "^5.0.8",
+    "postcss": "^8.3.11"
+  },
+  "dependencies": {
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "shortid": "^2.2.16"
+  }
+}
